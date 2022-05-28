@@ -259,3 +259,18 @@ plt.hist(x, bins=15, facecolor='g', alpha=0.75, density=True)
 plt.xlabel('wartosci x')
 plt.ylabel('prawdopodobienstwa')
 plt.show()
+
+# import numpy as np
+# import pandas as pd
+# import matplotlib.pyplot as plt
+# from PIL import Image
+# #pillow 9.0.1
+
+# x = np.arange(-2, 4, 0.12)
+# plt.subplot(2, 1, 1)
+# plt.plot(x, ((-4)*(np.power(x, 2)) + ((6 * x) / 2) + 20), 'ro', label="sin od x")
+# plt.legend(labels=['-4*x^2+(6x/2)+20'], loc='lower center')
+# plt.grid()
+# plt.axis([-2, 4, -25, 25])
+# plt.yticks([-25, 0, 25])
+# plt.show()
